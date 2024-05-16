@@ -1,0 +1,168 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container1 {
+    border: 1px solid black;
+    height: 85vh;
+    width: 85vw;
+    margin: 5vh 0px 0px 20vh;
+    border-radius: 10px;
+}
+
+.main1 {
+    display: flex;
+}
+
+.header1 {
+    height: 40px;
+    background-color: black;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px 0px 0px 15vh;
+    padding-top: 5px;
+}
+
+.header1 h3 {
+    color: white;
+}
+
+.side1 {
+    display: flex;
+    margin-left: 40vh;
+    margin-top: 11vh;
+}
+
+.time1 {
+    margin-right: 20px;
+}
+
+.trainer1 label {
+    font-size: 20px;
+    color: gray;
+}
+
+.trainer1 input {
+    font-size: 20px;
+    text-align: start;
+    border: transparent;
+    padding-left: 10px;
+    outline: none;
+}
+
+.current1 label {
+    font-size: 20px;
+    color: gray;
+}
+
+.current1 input {
+    text-align: start;
+    border: transparent;
+    padding-left: 10px;
+    outline: none;
+}
+
+.tabular1 {
+    margin: 10vh 0px 0px 18vh;
+    width: 80%;
+}
+
+.table thead th {
+    font-size: 18px;
+}
+
+.table tbody td {
+    padding-right: 23px;
+    font-size: 16px;
+}
+
+.bttn1 {
+    background-color: rgb(48, 141, 76);
+    border-radius: 10px;
+    color: white;
+    width: 5vw;
+    height: 4vh;
+    border: none;
+    font-weight: 500;
+}
+
+.bttn1 .link {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .container1 {
+        width: 100vw;
+        height: 110vh;
+        margin: 5vh 0 0 5vw;
+    }
+
+    .header1 {
+        margin-left: 10px;
+        font-size: 12px;
+        width: 20%;
+    }
+
+    .side1 {
+        margin-left: 10px;
+        font-size: 12px;
+        width: 20%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .container1 {
+            width: 160vw;
+            height: 110vh;
+            margin: 5vh 0 0 5vw;
+        }
+    
+        .header1 {
+            margin-left: 10px;
+            font-size: 12px;
+            width: 20%;
+        }
+    
+        .side1 {
+            margin-left: 1px;
+            margin-top: 120px;
+            font-size: 1px;
+            width: 20%;
+        }
+
+
+        .current1 {
+            font-size: 13px;
+        }
+
+        .trainer1 {
+            font-size: 15px;
+        }
+
+        .trainer1 input {
+            font-size: 14px;
+            margin-left: 10px;
+        }
+    
+        .tabular1 {
+            margin: 10vh 0px 0px 5vw;
+            width: 90%;
+            overflow-x: auto; 
+        }
+    
+        .table thead th {
+            font-size: 14px;
+        }
+    
+        .table tbody td {
+            padding-right: 10px; 
+            font-size: 12px;
+        }
+
+        .bttn1 {
+            width: 10vh;
+        }
+    }
+    
+}
